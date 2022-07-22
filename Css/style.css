@@ -503,7 +503,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
-.plats .content__text__eat h3, .plats .content__text__eat .sub {
+.plats .content__text__eat h3, .plats .content__text__eat p {
   max-height: 20px;
   white-space: nowrap;
   overflow: hidden;
@@ -512,9 +512,6 @@ a {
 .plats .content__text__eat .sub {
   margin-right: 30px;
   color: rgb(0, 0, 0);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .plats .content__price__check {
   display: flex;
