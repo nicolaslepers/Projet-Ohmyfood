@@ -1,0 +1,58 @@
+@mixin entre_plat_dessert {
+    background-color: white;
+    width: 100%;
+    border-radius: 15px;
+    margin: 10px 10px 10px 0;
+    box-shadow: $box-shadow;
+    
+  }
+  
+  @mixin bouton {
+    flex-wrap: nowrap;
+    font-size: 15px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    background: $quaternary-color;
+    border-radius: 35px;
+    box-shadow: $box-shadow;
+    color: white;
+    width: fit-content;
+    margin: 30px;
+    margin-bottom: 80px;
+  }
+  
+  @mixin content {
+    
+    margin: 10px 0px 10px 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+  }
+  
+  @mixin price {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    paddin-right: 30px;
+  }
+
+  @mixin choise {
+    width: 100%;
+    display: flex;
+    max-width: 380px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    box-shadow: $box-shadow;
+    border-radius: 25px;
+    background-color: rgb(247, 247, 247);
+    right: -5px;
+    position: relative;
+    transition: 0.3s;
+  }
