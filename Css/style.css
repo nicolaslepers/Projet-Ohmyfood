@@ -33,16 +33,16 @@
 @keyframes start {
   0% {
     transform: translateY(50%);
-    opacity: 0;
+    opacity:0;
   }
   50% {
     transform: translate(0%);
-    opacaty: 1;
+    opacity:1;
   }
 }
 @keyframes rotate {
   from {
-    transform: rotate 0deg;
+    transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
@@ -522,7 +522,6 @@ a {
   display: flex;
   align-items: flex-end;
   margin-bottom: 10px;
-  paddin-right: 30px;
 }
 .plats .content__price__check .check {
   display: flex;
